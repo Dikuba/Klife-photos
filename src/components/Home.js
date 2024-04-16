@@ -1,5 +1,6 @@
 // Home.js
 import React, { useState, useEffect } from 'react';
+import {ReactTyped} from 'react-typed';
 import './Home.css';
 
 const Home = () => {
@@ -31,9 +32,19 @@ const Home = () => {
       <div className="dark-overlay">
         <div className="home-header">
         <div className="text-content">
-          <p className="heading">Welcome to</p>
-          <div className="heading-name"><strong>
-            Klife Photos</strong>
+        <p className="heading">Welcome to Klife Photos</p>
+            <div className="heading-name">{" "}
+        <ReactTyped
+          strings={["A picture is worth a thousand words",
+          "Every moment of your life is beautiful",
+          "Capture life's priceless moments",
+          "WE ARE KLIFE Photos"]}
+          typeSpeed={100}
+          loop
+          backSpeed={20}
+          
+          
+        />
           </div>
         </div>
       </div>

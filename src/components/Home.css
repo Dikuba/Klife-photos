@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
 .home {
     margin: 0;
     padding: 0;
@@ -31,15 +33,19 @@
     left: 30px;
     color: white;
     text-align: left;
-    font-family: 'Graphik', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
     
 }
 .heading {
-    font-size: 3.5rem; /* Adjust font size as needed */
+    font-size: 2rem; /* Adjust font size as needed */
 }
 
 .heading-name {
-    font-size: 6rem; /* Adjust font size as needed */
+    font-size: 4rem; 
+    color: #faded1  ;/* Adjust font size as needed */
 }
 .dark-overlay {
     background-color: rgba(0, 0, 0, 0.35);
