@@ -1,0 +1,75 @@
+/* Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Dosis:wght@572&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Dosis:wght@572&family=Fredoka:wght@300..700&display=swap');
+.navbar {
+    background-color: black;
+    color: white;
+    position: sticky;
+    width: 100%;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    transition: color 0.3s;
+  }
+  
+  .menu a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  .active {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  .book-now button {
+    background-color: rgb(176, 23, 7);
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 20px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .book-now button:hover {
+    background-color: rgb(233, 22, 7);
+  }
+  
