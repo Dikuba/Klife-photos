@@ -49,7 +49,7 @@
     color: #faded1  ;/* Adjust font size as needed */
 }
 .dark-overlay {
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: rgba(0, 0, 0, 0.686);
     position: absolute;
     top: 0;
     left: 0;

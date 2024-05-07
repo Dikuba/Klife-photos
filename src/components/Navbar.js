@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="logo">
-          <h4>Klife Photos</h4>
+          Klife Photos
         </div>
         <ul className="menu">
           <li> <NavLink exact to="/" activeClassName="active">Home</NavLink></li>

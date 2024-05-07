@@ -1,7 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Dosis:wght@572&family=Fredoka:wght@300..700&display=swap');
+
 .service {
 margin-top: 0;
 padding-top: 0;
-min-height: 86vh;
+min-height: 100vh;
 background-size: cover;
 background-repeat: no-repeat;
-};
+}
+.size{
+
+    margin-top: 35px;
+    font-size: 50px;
+    text-shadow: 2cm;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    text-align: center;
+}
+.servicetitle{
+    text-align: center;
+    color: white;
+
+}
+.servicestyle{
+    color: red;
+}
+.title {
+    
+    color: rgb(150, 5, 5);
+    font-size: 18px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    text-align: center;
+    
+}
+.text{
+    align-content: left;
+}
